@@ -1,0 +1,104 @@
+Uri: https://elaman-portfolio.netlify.app/
+File Name: C:\Downloaded Web Sites\elaman-portfolio.netlify.app\index.htm
+Content Type: text/html
+
+Uri: https://elaman-portfolio.netlify.app/Files/Жүсіпбек-Аймауытов-БК-1.pdf
+File Name: C:\Downloaded Web Sites\elaman-portfolio.netlify.app\Files\Жүсіпбек-Аймауытов-БК-1.pdf
+Content Type: application/pdf
+
+Uri: https://elaman-portfolio.netlify.app/Files/Цифрлық Кибергигиена.pdf
+File Name: C:\Downloaded Web Sites\elaman-portfolio.netlify.app\Files\Цифрлық Кибергигиена.pdf
+Content Type: application/pdf
+
+Uri: https://elaman-portfolio.netlify.app/images/АКТ сертификат.jpg
+File Name: C:\Downloaded Web Sites\elaman-portfolio.netlify.app\images\АКТ сертификат.jpg
+Content Type: image/jpeg
+
+Uri: https://elaman-portfolio.netlify.app/images/Сертификат 2.jpg
+File Name: C:\Downloaded Web Sites\elaman-portfolio.netlify.app\images\Сертификат 2.jpg
+Content Type: image/jpeg
+
+Uri: https://elaman-portfolio.netlify.app/images/1.jpeg
+File Name: C:\Downloaded Web Sites\elaman-portfolio.netlify.app\images\1.jpeg
+Content Type: image/jpeg
+
+Uri: https://elaman-portfolio.netlify.app/images/10.jpg
+File Name: C:\Downloaded Web Sites\elaman-portfolio.netlify.app\images\10.jpg
+Content Type: image/jpeg
+
+Uri: https://elaman-portfolio.netlify.app/images/11.jpg
+File Name: C:\Downloaded Web Sites\elaman-portfolio.netlify.app\images\11.jpg
+Content Type: image/jpeg
+
+Uri: https://elaman-portfolio.netlify.app/images/12.jpg
+File Name: C:\Downloaded Web Sites\elaman-portfolio.netlify.app\images\12.jpg
+Content Type: image/jpeg
+
+Uri: https://elaman-portfolio.netlify.app/images/2.jpeg
+File Name: C:\Downloaded Web Sites\elaman-portfolio.netlify.app\images\2.jpeg
+Content Type: image/jpeg
+
+Uri: https://elaman-portfolio.netlify.app/images/3.jpeg
+File Name: C:\Downloaded Web Sites\elaman-portfolio.netlify.app\images\3.jpeg
+Content Type: image/jpeg
+
+Uri: https://elaman-portfolio.netlify.app/images/4.jpeg
+File Name: C:\Downloaded Web Sites\elaman-portfolio.netlify.app\images\4.jpeg
+Content Type: image/jpeg
+
+Uri: https://elaman-portfolio.netlify.app/images/5.jpeg
+File Name: C:\Downloaded Web Sites\elaman-portfolio.netlify.app\images\5.jpeg
+Content Type: image/jpeg
+
+Uri: https://elaman-portfolio.netlify.app/images/6.jpeg
+File Name: C:\Downloaded Web Sites\elaman-portfolio.netlify.app\images\6.jpeg
+Content Type: image/jpeg
+
+Uri: https://elaman-portfolio.netlify.app/images/7.jpg
+File Name: C:\Downloaded Web Sites\elaman-portfolio.netlify.app\images\7.jpg
+Content Type: image/jpeg
+
+Uri: https://elaman-portfolio.netlify.app/images/8.jpg
+File Name: C:\Downloaded Web Sites\elaman-portfolio.netlify.app\images\8.jpg
+Content Type: image/jpeg
+
+Uri: https://elaman-portfolio.netlify.app/images/9.jpg
+File Name: C:\Downloaded Web Sites\elaman-portfolio.netlify.app\images\9.jpg
+Content Type: image/jpeg
+
+Uri: https://elaman-portfolio.netlify.app/practice
+File Name: C:\Downloaded Web Sites\elaman-portfolio.netlify.app\practice.html
+Content Type: text/html
+
+Uri: https://elaman-portfolio.netlify.app/project
+File Name: C:\Downloaded Web Sites\elaman-portfolio.netlify.app\project.html
+Content Type: text/html
+
+Uri: https://elaman-portfolio.netlify.app/style.css
+File Name: C:\Downloaded Web Sites\elaman-portfolio.netlify.app\style.css
+Content Type: text/css
+
+Uri: https://elaman-portfolio.netlify.app/your-photo.jpg
+File Name: C:\Downloaded Web Sites\elaman-portfolio.netlify.app\your-photo.jpg
+Content Type: image/jpeg
+
+Uri: https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap
+File Name: C:\Downloaded Web Sites\elaman-portfolio.netlify.app\css2
+Content Type: text/css
+
+Uri: https://fonts.gstatic.com/s/montserrat/v31/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCs16Ew-.ttf
+File Name: C:\Downloaded Web Sites\elaman-portfolio.netlify.app\s\montserrat\v31\JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCs16Ew-.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/montserrat/v31/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Ew-.ttf
+File Name: C:\Downloaded Web Sites\elaman-portfolio.netlify.app\s\montserrat\v31\JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Ew-.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/montserrat/v31/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCuM70w-.ttf
+File Name: C:\Downloaded Web Sites\elaman-portfolio.netlify.app\s\montserrat\v31\JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCuM70w-.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/montserrat/v31/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvC70w-.ttf
+File Name: C:\Downloaded Web Sites\elaman-portfolio.netlify.app\s\montserrat\v31\JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvC70w-.ttf
+Content Type: font/ttf
+

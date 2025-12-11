@@ -1,0 +1,428 @@
+﻿/* ================================== */
+/* 1. БАЗОВЫЕ СТИЛИ И ПЕРЕМЕННЫЕ */
+/* ================================== */
+
+:root {
+    /* Цветовая палитра: Темный фон, светлый текст, тонкий акцент */
+    --color-dark-bg: #111111; /* Самый темный цвет (для фона) */
+    --color-mid-bg: #2C2C2C; /* Для карточек, форм и секций */
+    --color-light-text: #EAEAEA; /* Светлый текст */
+    --color-gray-text: #999999; /* Серый текст / подзаголовки */
+    --color-accent: #00A693; /* Тонкий акцентный цвет (бирюзовый/зеленоватый) */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Подключение шрифта Montserrat (бесплатный аналог CERA CY) */
+@import url('css2');
+
+body {
+    font-family: 'Montserrat', sans-serif; /* Использование выбранного шрифта */
+
+    /* Эффект градиентного фона с освещением в центре */
+    background-color: var(--color-dark-bg);
+    background-image: radial-gradient(circle at center, rgba(44, 44, 44, 1) 0%, rgba(17, 17, 17, 1) 90%);
+
+    color: var(--color-light-text);
+    line-height: 1.6;
+    scroll-behavior: smooth; /* Улучшение: Плавный скролл */
+    overflow-x: hidden;
+}
+
+/* Общие стили для секций и заголовков */
+.portfolio-section {
+    padding: 100px 5%;
+}
+
+.section-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 8vw;
+    letter-spacing: -3px;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 3em;
+    margin-bottom: 40px;
+    color: var(--color-light-text);
+    border-left: 5px solid var(--color-accent);
+    padding-left: 20px;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 1.5em;
+    color: var(--color-accent);
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 15px;
+    color: var(--color-light-text);
+}
+
+a {
+    color: var(--color-light-text);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: var(--color-accent);
+}
+
+/* ================================== */
+/* 2. HERO SECTION (.01) */
+/* ================================== */
+
+.hero-section {
+    height: 100vh;
+    /* Тонкий линейный градиент для контраста с body */
+    background-image: linear-gradient(to bottom, var(--color-dark-bg) 0%, var(--color-mid-bg) 100%);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px 5%;
+    position: relative;
+    overflow: hidden;
+}
+
+.header-nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    z-index: 10;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: 700;
+    color: var(--color-accent);
+}
+
+nav a {
+    margin-left: 30px;
+    font-weight: 400;
+    color: var(--color-gray-text);
+}
+
+nav a:hover {
+    color: var(--color-light-text);
+}
+
+.hero-content {
+    text-align: center;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-title {
+    font-size: 150px;
+    font-weight: 900;
+    line-height: 0.9;
+    letter-spacing: -5px;
+    margin: 0;
+}
+
+.subtitle {
+    font-size: 0.9em;
+    color: var(--color-gray-text);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+.role-title {
+    font-size: 1.2em;
+    color: var(--color-gray-text);
+    margin-top: 10px;
+}
+
+/* Вертикальные декоративные линии */
+.decor-line {
+    position: absolute;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    color: var(--color-gray-text);
+    font-size: 0.8em;
+    font-weight: 300;
+    padding: 10px 0;
+}
+
+.decor-line.left {
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.decor-line.right {
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* ================================== */
+/* 3. ABOUT ME SECTION */
+/* ================================== */
+
+.about-grid {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    gap: 50px;
+    align-items: start;
+}
+
+.profile-photo {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.text-block p {
+    font-size: 1.1em;
+}
+
+/* ================================== */
+/* 4. PRACTICE & MATERIALS SECTIONS */
+/* ================================== */
+
+.practice-experience {
+    background-color: var(--color-mid-bg); /* Темный фон для выделения секции */
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.practice-card {
+    background-color: var(--color-dark-bg);
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    border: 1px solid var(--color-mid-bg);
+}
+
+.date-info {
+    color: var(--color-gray-text);
+    font-size: 0.9em;
+    margin-bottom: 20px;
+}
+
+.view-button {
+    display: inline-block;
+    padding: 10px 15px;
+    border: 1px solid var(--color-accent);
+    color: var(--color-accent);
+    font-size: 0.9em;
+    margin-top: 15px;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+}
+
+.view-button:hover {
+    background-color: var(--color-accent);
+    color: var(--color-dark-bg);
+}
+
+.material-list {
+    list-style: none;
+    padding: 0;
+}
+
+.material-list li {
+    padding: 15px 0;
+    border-bottom: 1px solid var(--color-mid-bg);
+}
+
+.material-list li:last-child {
+    border-bottom: none;
+}
+
+.material-list a {
+    font-size: 1.1em;
+    font-weight: 400;
+}
+
+/* ================================== */
+/* 5. CONTACT SECTION (.03) */
+/* ================================== */
+
+.contact-info {
+    background-color: var(--color-mid-bg);
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    padding-top: 50px;
+}
+
+.contact-details {
+    padding-right: 50px;
+    border-right: 1px solid var(--color-dark-bg);
+}
+
+.detail-label {
+    text-transform: uppercase;
+    color: var(--color-gray-text);
+    font-size: 0.8em;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+.detail-value {
+    font-size: 1.1em;
+    margin-bottom: 0;
+}
+
+.contact-form-placeholder {
+    padding-left: 50px;
+    background-color: var(--color-dark-bg);
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.contact-form-placeholder h3 {
+    color: var(--color-light-text);
+}
+
+/* ================================== */
+/* 6. FOOTER */
+/* ================================== */
+
+footer {
+    text-align: center;
+    padding: 30px 0;
+    font-size: 0.8em;
+    color: var(--color-gray-text);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-top: 1px solid var(--color-mid-bg);
+}
+
+/* ================================== */
+/* 7. АДАПТИВНОСТЬ (MEDIA QUERIES) */
+/* ================================== */
+
+@media (max-width: 900px) {
+    .main-title {
+        font-size: 10vw;
+    }
+
+    .about-grid, .contact-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-details {
+        border-right: none;
+        padding-right: 0;
+        padding-bottom: 30px;
+        border-bottom: 1px solid var(--color-dark-bg);
+    }
+
+    .contact-form-placeholder {
+        padding-left: 0;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    .decor-line {
+        display: none;
+    }
+
+    .hero-section {
+        padding: 20px;
+    }
+
+    nav {
+        display: none;
+    }
+
+    h2 {
+        font-size: 2em;
+        padding-left: 10px;
+    }
+}
+
+/* ================================== */
+/* 8. УЛУЧШЕНИЯ ЮЗАБИЛИТИ И ДЕТАЛИЗАЦИЯ (Добавлено) */
+/* ================================== */
+
+/* Добавление стилей для изображений в списках/контенте */
+.material-list img,
+.section-content img:not(.profile-photo) {
+    max-width: 100%;
+    height: auto;
+    border-radius: 3px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: block; /* Убедимся, что ведет себя как блочный элемент */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Легкая тень для выделения */
+}
+
+.achievements {
+    background-color: var(--color-dark-bg);
+}
+/* ================================== */
+/* 10. ТӘЛІМГЕР ПІКІРІНІҢ СТИЛІ (Mentor Quote) */
+/* ================================== */
+
+.mentor-quote {
+    background-color: var(--color-mid-bg); /* Артқы фон */
+    padding: 30px;
+    border-radius: 5px;
+    border-left: 5px solid var(--color-accent); /* Акценттік сызық */
+    margin-top: 40px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+}
+
+.mentor-quote h3 {
+    color: var(--color-light-text); /* Заголовок ақ түсті болады */
+    margin-bottom: 20px;
+    font-size: 1.3em;
+}
+
+.mentor-quote blockquote {
+    margin: 0;
+    padding: 0;
+}
+
+.mentor-quote blockquote p {
+    font-size: 1.2em;
+    font-style: italic; /* Курсивный текст */
+    color: var(--color-light-text);
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.mentor-quote footer {
+    display: block;
+    text-align: right;
+    font-size: 0.9em;
+    color: var(--color-accent); /* Автордың аты акценттік түсте */
+    margin-top: 10px;
+}

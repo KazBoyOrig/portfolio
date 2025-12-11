@@ -1,0 +1,111 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Педагогикалық тәжірибе | Сандыбаев Еламан</title>
+    <link href="css2?family=Montserrat:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .practice-detail-header {
+            background-color: var(--color-mid-bg);
+            padding: 100px 5%;
+            text-align: center;
+        }
+
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 50px;
+        }
+
+        .gallery-item {
+            overflow: hidden;
+            border-radius: 5px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+            transition: transform 0.3s ease;
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover; /* Чтобы фото заполняли блок без искажений */
+            display: block;
+        }
+
+        .gallery-item:hover {
+            transform: scale(1.03); /* Небольшое увеличение при наведении */
+        }
+    </style>
+</head>
+<body>
+
+<header class="hero-section practice-detail-header">
+    <div class="header-nav-container">
+        <div class="logo"><a href='index.htm'>Басты бетке</a></div>
+        <nav>
+            <a href="#gallery">Фотогалерея</a>
+            <a href="#summary">Қорытынды</a>
+        </nav>
+    </div>
+
+    <div class="hero-content">
+        <p class="subtitle">Қараша 2025</p>
+        <h1 class="main-title" style="font-size: 5em;">Педагогикалық тәжірибе</h1>
+        <p class="role-title">№217 жалпы білім беретін мектеп, "Саналы ұрпақ тәрбиесі: адалдық пен сапалы білім сабақтастығы" тақырыбы</p>
+    </div>
+</header>
+
+<main>
+    <section class="portfolio-section" id="summary">
+        <div class="section-content">
+            <h2>Тәжірибе мақсаты мен міндеттері</h2>
+            <p></p>
+
+            <h3>Тәжірибе кезеңіндегі негізгі жетістіктер:</h3>
+            <ul>
+                <li>Мақсаты: Қазіргі білім беру жүйесіндегі оқытудың тиімді әдіс-тәсілдері мен тәжірибелері бойынша мәселелерді ортаға салу, ғылыми-әдістемелік негіздерін зерделеу, халықаралық дәрежеде тәжірибе алмасу және педагогтердің біліктілігін арттыру.</li>
+            </ul>
+
+            <h3>Тәжірибеден алынған білім</h3>
+            <p>"Саналы ұрпақ тәрбиесі: адалдық пен сапалы білім сабақтастығы" тақырыбындағы семинар оқытудың теориялық негіздерін тереңдетіп, қазіргі білім беру жүйесіндегі тиімді әдіс-тәсілдер мен озық тәжірибелер бойынша мәселелерді талқылауға мүмкіндік берді. Мұндағы басты мақсат — ғылыми-әдістемелік негіздерді зерделеп, біліктілікті арттыру екенін түсіндім.</p>
+            <p>Жалпы, бұл практикалық кезең және әдістемелік іс-шара болашақ маман ретінде менің теориялық білімімді практикалық тәжірибемен ұштастыруға және кәсіби тұрғыдан өсуіме зор ықпал етті.</p>
+        </div>
+    </section>
+
+    <section class="portfolio-section practice-experience" id="gallery">
+        <div class="section-content">
+            <h2>Фотогалерея</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="images/7.jpg" alt="Сабақ үстіндегі фотосурет">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/8.jpg" alt="Тақтадағы жұмыс">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/9.jpg" alt="Оқушылармен жұмыс">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/10.jpg" alt="Жобаны қорғау сәті">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/11.jpg" alt="Жобаны қорғау сәті">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/12.jpg" alt="Жобаны қорғау сәті">
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<footer>
+    <p>Биарстанов Дастан&copy; 2025</p>
+</footer>
+
+</body>
+</html>
